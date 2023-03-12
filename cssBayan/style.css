@@ -1,0 +1,56 @@
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.wrapper {
+    padding-top: 30px;
+    width: 80vw;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.section__block {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.section__text{
+    margin-left: 0px;
+    color: #464646;
+}
+
+.section__accordeon{
+    border-radius: 3px;
+    background-color: #464646;
+    display: flex;
+    margin-right: 0px;
+}
+
+.section__line{
+    margin: 10px 0;
+}
+
+.section__image{
+    max-width: 25em;
+    width: 28vw;
+    display: none;
+}
+
+.section:hover .section__cross{
+    cursor: pointer;
+    transform: rotate(-45deg);
+}
+
+.section:hover .section__image, .section__input:checked + .section__image{
+    display: inline;
+}
+
+.section__cross{
+    padding: 5px 5px;
+    transition: all 0.5s;
+}
+
+.section__input{
+    display: none;
+}
