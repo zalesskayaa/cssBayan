@@ -10,9 +10,6 @@
     margin: 0 auto;
 }
 
-.wrapper__sections{
-}
-
 .section__block {
   display: flex;
   margin-bottom: 10px;
@@ -37,23 +34,16 @@
 .section__image{
     max-width: 25em;
     width: 28vw;
+    display: none;
 }
 
-.section__cross:hover{
-    padding: 5px 5px;
+.section:hover .section__cross{
     transform: rotate(-45deg);
     transition: all 0.5s;
 }
 
-.section__cross:hover{
-    padding: 5px 5px;
-    transform: rotate(-45deg);
-    transition: all 0.5s;
-}
-
-.section__cross_active{
-    padding: 5px 5px;
-    transform: rotate(-45deg);
+.section:hover .section__image, .section__input:checked + .section__image{
+    display: inline;
 }
 
 .section__cross{
@@ -61,8 +51,6 @@
     transition: all 0.5s;
 }
 
-.section__image-close{
-    max-width: 25em;
-    width: 28vw;
+.section__input{
     display: none;
 }
