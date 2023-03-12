@@ -38,6 +38,7 @@
 }
 
 .section:hover .section__cross{
+    cursor: pointer;
     transform: rotate(-45deg);
     transition: all 0.5s;
 }
