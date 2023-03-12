@@ -40,7 +40,6 @@
 .section:hover .section__cross{
     cursor: pointer;
     transform: rotate(-45deg);
-    transition: all 0.5s;
 }
 
 .section:hover .section__image, .section__input:checked + .section__image{
