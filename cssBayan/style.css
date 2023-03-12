@@ -21,7 +21,6 @@
 .section__text{
     margin-left: 0px;
     color: #464646;
-    font-size: 2vw;
 }
 
 .section__accordeon{
@@ -41,16 +40,16 @@
 }
 
 .section__cross{
-    padding: 5px 7px;
+    padding: 5px 5px;
     transform: rotate(-45deg);
 }
 
 .section__plus{
-    padding: 5px 7px;
+    padding: 5px 5px;
 }
 
 .section__image-close{
     max-width: 25em;
     width: 28vw;
-    /* display: none; */
+    display: none;
 }
