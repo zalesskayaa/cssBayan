@@ -39,13 +39,26 @@
     width: 28vw;
 }
 
-.section__cross{
+.section__cross:hover{
+    padding: 5px 5px;
+    transform: rotate(-45deg);
+    transition: all 0.5s;
+}
+
+.section__cross:hover{
+    padding: 5px 5px;
+    transform: rotate(-45deg);
+    transition: all 0.5s;
+}
+
+.section__cross_active{
     padding: 5px 5px;
     transform: rotate(-45deg);
 }
 
-.section__plus{
+.section__cross{
     padding: 5px 5px;
+    transition: all 0.5s;
 }
 
 .section__image-close{
